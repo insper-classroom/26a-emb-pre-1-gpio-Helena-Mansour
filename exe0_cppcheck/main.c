@@ -13,7 +13,7 @@ int main(void) {
     int b = 5; 
     int result = multiplyNumbers(a, b);
 
-    int arr[NUM_ELEMENTS];
+ 
 
     int arr[NUM_ELEMENTS];
     for(int i = 0; i < NUM_ELEMENTS; i++) { 
@@ -21,5 +21,5 @@ int main(void) {
     }
 
     
-    return 0;
+    return result + arr[0];
 }

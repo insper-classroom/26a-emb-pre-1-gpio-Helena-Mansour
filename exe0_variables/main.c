@@ -10,7 +10,7 @@ void main(void) {
     int b = 0;
     int a =0;
 
-    while (1) {
+    while (!b) {
         foo(&a);
         
         if (a > 5) {
