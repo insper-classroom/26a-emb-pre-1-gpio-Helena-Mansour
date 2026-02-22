@@ -7,7 +7,7 @@ const int FIRST_GPIO = 2;
 const int BTN_PIN_G = 28;
 
 
-int last_btn= 1; // Button not pressed (pulled up)
+
 
 // This array converts a number 0-9 to a bit pattern to send to the GPIOs
 int bits[10] = {
